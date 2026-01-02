@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Images/Background1.jpg');
+    background-size: auto;       /* fill whole page */
+    background-position: center;  /* center the image */
+    background-repeat: repeat; /* no tiling */
+    margin: 0;
+}
+
+header {
+    background-image: url('../Images/gold king chess piece stand.png'); /* header image */
+    background-repeat: repeat;       /* repeat the image */
+    background-size: auto;           /* keep aspect ratio */
+    background-position: top left;   /* start repeating from top-left */
+    color: white;                    /* text color */
+    text-align: center;
+    padding: 60px 20px;              /* space for the header */
+}
+
+nav {
+    background-color: rgba(51, 51, 51, 0.7); /* semi-transparent dark */
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Center all content inside boxes */
+.box {
+    background-color: transparent; /* remove white */
+    margin: 20px auto;             /* center the box horizontally */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    text-align: center;            /* center all text inside */
+    max-width: 800px;              /* optional: limits width */
+}
+
+/* Center all images */
+img {
+    display: block;       /* allows margin auto to work */
+    margin: 20px auto;    /* center horizontally with spacing */
+    max-width: 100%;      /* responsive */
+    border-radius: 6px;
+}
+
+/* Ensure images inside paragraphs are also centered */
+.box p img {
+    display: block;
+    margin: 10px auto 30px auto; /* center with spacing below text */
+}
+
+
+
+h2 {
+#Histoire des échecs h2;
+#Règles du jeu h2;
+#Pourquoi jouer aux échecs ? h2; 
+	font-size: 3em;
+    font-weight: bold;    
+    margin-bottom: 20px;  
+	color: #222;
+}
+
+h3 {
+	font-size: 1.5em;
+    font-weight: bold;    
+    margin-bottom: 10px;
+	color: #222;
+}
+
+h4 {
+	font-size: 4em;
+    font-weight: bold;    
+    margin-bottom: 10px;
+}
+	
+h5 {
+	font-size: 1.5em;
+    font-weight: bold;    
+    margin-bottom: 10px;
+}
+
+p {
+    color: #222;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: rgba(30, 30, 30, 0.7); /* semi-transparent dark */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
