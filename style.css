@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../Images/Background1.jpg');
+    background-image: url('Background1.jpg');
     background-size: auto;       /* fill whole page */
     background-position: center;  /* center the image */
     background-repeat: repeat; /* no tiling */
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image: url('../Images/gold king chess piece stand.png'); /* header image */
+    background-image: url('gold king chess piece stand.png'); /* header image */
     background-repeat: repeat;       /* repeat the image */
     background-size: auto;           /* keep aspect ratio */
     background-position: top left;   /* start repeating from top-left */
@@ -102,3 +102,4 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
