@@ -86,6 +86,10 @@ h5 {
     margin-bottom: 10px;
 }
 
+h6 {
+	font-size: 1.5em;
+}
+
 p {
     color: #222;
 }
@@ -102,4 +106,5 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
 
